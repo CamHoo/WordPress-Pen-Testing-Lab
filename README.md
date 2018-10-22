@@ -36,5 +36,5 @@ To exploit this vulnerability, I used the following steps:
   1. Choose a file larger than the size allowed for uploading by WordPress. Rename this file to include your XSS code.
   2. While logged in as an Administrator, upload a new file. It is important that this file exceed the size allowed by WordPress. In this case that is 2 MB.
   3. Once your file has been uploaded, the XSS will be triggered.
-  
+  ![](Exploit3.gif)
 This vulnerability is present in WordPress versions 3.3-4.7.4, and has been patched in all later versions.
